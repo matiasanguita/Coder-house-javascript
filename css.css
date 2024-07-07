@@ -1,0 +1,18 @@
+#calculadoraTemperatura
+{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    column-gap: 5px;
+}
+.ejecutarCalculo{
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+}
+
+#calculadoraSumatorias
+{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    column-gap: 5px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css.css">
+    <title>Calculadora Temperatura</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <h1>Calculadora de temperaturas</h1>
+        <div id="calculadoraTemperatura">
+            <div class="temperaturaEntrada">
+                <div>Grados Celsius (°C)</div>
+                <input type="number" id="tempInput">
+            </div>
+            <div class="ejecutarCalculo"> 
+                transformar a: 
+                <select name="gradosDefinicion" id="gradoSelect">
+                    <option value="kelvin">kelvin</option>
+                    <option value="fahrenheit">fahrenheit</option>
+                    <option value="rankine">rankine</option>
+                </select>
+                <button id="calcButton">Calcular!</button>
+            </div>
+            <div class="resultadoCalculo">
+                <p id="tempOutput"> a </p>
+            </div>
+        </div>
+        <h2>Calculadora de series :O</h2>
+        <div id="calculadoraSumatorias">
+            <div class="inicioSumatoria">
+                <input type="number" id="sumIn">
+            </div>
+            <div class="calcularSumatoria">
+                <button id="sumButton">Calcular!</button>
+            </div>
+            <div class="resultadoSumatoria">
+                <p id="sumOutput"></p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./asssets/scripts.js"></script>
+</body>
+</html>
